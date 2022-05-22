@@ -1,0 +1,54 @@
+@layer components {
+  .container {
+    @apply mx-auto max-w-screen-md px-2;
+  }
+
+  .card {
+    @apply border-surface-light-darker bg-surface-light dark:border-surface-dark-lighter dark:bg-surface-dark-light rounded-lg border p-4 text-lg transition md:p-8;
+
+    h3 {
+      @apply text-primary-500 dark:text-primary pb-4 text-2xl font-bold;
+    }
+  }
+
+  .icon-btn {
+    @apply bg-surface-light-darker dark:bg-surface-dark-lighter rounded-lg p-2;
+    &:focus {
+      @apply ring-primary outline-none ring-2;
+    }
+    & > * {
+      @apply h-7 w-7;
+    }
+  }
+
+  .selectable-item {
+    @apply hover:bg-surface-light-darker dark:hover:bg-surface-dark-lightest cursor-pointer rounded py-2 px-2.5 text-xl transition;
+
+    &[data-active='true'] {
+      @apply bg-surface-light-darker dark:bg-surface-dark-lightest;
+    }
+
+    &[data-selected='true'] {
+      @apply text-primary-500 dark:text-primary;
+    }
+  }
+
+  .menu {
+    @apply relative;
+
+    & > :not(button) {
+      @apply bg-surface-light ring-primary dark:bg-surface-dark-lighter absolute mt-2 flex flex-col rounded-lg p-2 shadow-2xl outline-none ring-2;
+
+      & > * {
+        @apply selectable-item;
+      }
+    }
+  }
+
+  .horizontal-tab {
+    @apply bg-surface-light dark:bg-surface-dark-light items-stretch rounded-lg;
+    & > * {
+      @apply selectable-item;
+    }
+  }
+}

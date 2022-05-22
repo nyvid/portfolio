@@ -1,0 +1,29 @@
+@import 'fonts.css';
+@import 'components.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface-light-dark dark:bg-surface-dark antialiased;
+    @apply text-slate-700 dark:text-white;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-surface-light-darkest dark:bg-surface-dark-lightest;
+  }
+}
