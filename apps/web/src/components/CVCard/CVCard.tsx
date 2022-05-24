@@ -1,5 +1,5 @@
 import { useI18n } from 'next-localization';
-import { FC, useState } from 'react';
+import { FC } from 'react';
 
 type CVCardSectionProps = {
   title: string;
@@ -22,9 +22,9 @@ const CVCardSection: FC<CVCardSectionProps> = ({ title, entries }) => {
   );
 };
 
-const useCVCardData = () => {
+const useCVCardData = (): CVCardSectionProps[] => {
   const { t } = useI18n();
-  const [data] = useState<CVCardSectionProps[]>([
+  return [
     {
       title: t('sites.home.cv.personalData.header') + ' 👨',
       entries: [
@@ -72,8 +72,7 @@ const useCVCardData = () => {
         { key: t('sites.home.cv.languages.english.key'), value: 'B' },
       ],
     },
-  ]);
-  return data;
+  ];
 };
 
 export const CVCard = () => {
