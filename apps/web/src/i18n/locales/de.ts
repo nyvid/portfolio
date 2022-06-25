@@ -31,15 +31,14 @@ export const de: Locale = {
       seo: {
         title: 'Startseite',
         description:
-          'Auf Jobsuche | Junior | Fullstack | Frontend | Backend. Ein Portfolio von Viktor Devizorov.',
+          'Junior | Fullstack | Frontend | Backend. Ein Portfolio von Viktor Devizorov.',
       },
       title: 'Hey, ich bin Viktor! 👋',
-      description:
-        'Ich bin auf der Suche nach einem Job, um meine Karrerie als Junior Fullstack-, Frontend oder Backendentwickler (Augsburg oder 100 % Remote) zu starten.',
+      description: 'Aktuell arbeite ich bei Possehl Online Solutions.',
       aboutMe: {
         header: 'Über mich',
         description:
-          'Nachdem ich in der Schule erste Erfahrungen mit C++ sammeln konnte, habe ich ein Informatikstudium begonnen. Im Studium habe ich die Webentwicklung kennengelernt und habe mich daraufhin besonders für die Cross-Plattform Entwicklung mit Progressive Web Apps interessiert. In meiner Freizeit interessiere ich mich außerdem für die Spieleentwicklung mit Webtechnologien. Meine größten Kenntnisse habe ich im Bereich React und NodeJS mit den Programmiersprachen JavaScript und TypeScript. Diese Kenntnisse möchte ich gerne in meinem nächsten Job weiter ausbauen, bin aber auch für neue Erfahrungen offen wie zum Beispiel Angular/Svelte oder andere Kenntnisse in denen ich aktuell nur Grundlagen habe, wie in der Programmiersprache Golang. 🙂',
+          'Nachdem ich in der Schule erste Erfahrungen mit C++ sammeln konnte, habe ich ein Informatikstudium begonnen. Im Studium habe ich die Webentwicklung kennengelernt und habe mich daraufhin besonders für die Cross-Plattform Entwicklung mit Progressive Web Apps interessiert. In meiner Freizeit interessiere ich mich außerdem für die Spieleentwicklung mit Webtechnologien. Meine größten Kenntnisse habe ich im Bereich React und NodeJS mit den Programmiersprachen JavaScript und TypeScript. 🙂',
       },
       cv: {
         header: 'Lebenslauf',

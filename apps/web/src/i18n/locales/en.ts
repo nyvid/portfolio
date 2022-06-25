@@ -31,15 +31,14 @@ export const en: Locale = {
       seo: {
         title: 'Home',
         description:
-          'Open to work | Junior | Fullstack | Frontend | Backend. A portfolio from Viktor Devizorov.',
+          'Junior | Fullstack | Frontend | Backend. A portfolio from Viktor Devizorov.',
       },
       title: "Hey, I'm Viktor! 👋",
-      description:
-        'I am looking for a job to start my career as a junior  fullstack, frontend or backend developer (Augsburg or 100% remote).',
+      description: 'I currently work at Possehl Online Solutions.',
       aboutMe: {
         header: 'About me',
         description:
-          'After gaining some experience with C++ at school, I started studying computer science. During my studies I got to know web development and became especially interested in cross-platform development with Progressive Web Apps. In my free time I am also interested in game development with web technologies. My greatest knowledge is in React and NodeJS with the JavaScript and TypeScript programming languages. I would like to expand this knowledge in my next job, but I am also open for new things like Angular/Svelte or other knowledge in which I currently only have basics, like the programming language Golang. 🙂',
+          'After gaining some experience with C++ at school, I started studying computer science. During my studies I got to know web development and became especially interested in cross-platform development with Progressive Web Apps. In my free time I am also interested in game development with web technologies. My greatest knowledge is in React and NodeJS with the JavaScript and TypeScript programming languages. 🙂',
       },
       cv: {
         header: 'CV',
